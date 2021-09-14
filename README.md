@@ -1,3 +1,4 @@
+![shooterIsland-gewonnen](https://user-images.githubusercontent.com/28704310/133208758-ee840ab7-8346-4a31-a1d9-63d2d352ddc7.JPG)
 # IslandShooting
 
 https://hs-teaching.github.io/IslandShooting/
