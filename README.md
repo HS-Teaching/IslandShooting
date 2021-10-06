@@ -10,6 +10,7 @@ https://freesound.org/s/435417/
 
 
 Cursor clickpoint in WebGl build not center (crosshair) -->  set cursor hotspot
+
 Sprite gewonnen disapear in full screen mode Webgl --> use image
 
 ### Anforderungen:  
