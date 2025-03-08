@@ -4,7 +4,7 @@ public class Target : MonoBehaviour
 {
     public GameManager gameManager;
 
-    void Start()
+    private void Start()
     {
         //create a reference to the GameManager script
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();

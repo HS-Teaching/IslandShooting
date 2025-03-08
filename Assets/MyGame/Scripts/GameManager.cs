@@ -11,12 +11,12 @@ public class GameManager : MonoBehaviour
     private int score = 0;
     private bool win = false;
 
-    void Start()
+    private void Start()
     {
         InvokeRepeating("Spawn",1f,1f);
     }
 
-    void Update()
+    private void Update()
     {
         //if the player hits 10 times, the player has won and the Spawn method will not called further. 
         if(win)
@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     //Spawn a target at a random position within a specified x and y range.
     //Instantiate (make a concrete GameObject, i.e., a clone from the given prefeb target) the target as a child
     //of the GameObject ParentTargets. In this case transform.localPosition instead of transform.position is important!!
-    void Spawn()
+    private void Spawn()
     {
         float randomX = Random.Range(-365f, 365f);
         float randomY = Random.Range(-202f,202f);
